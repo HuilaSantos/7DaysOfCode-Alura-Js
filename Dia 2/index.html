@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OptimusTech</title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h4 id="hresposta"></h4>
+  <p id="resposta"></p>
+  
+  <form id="opcional" style="display: hidden">
+    <fieldset>
+      <legend>Está gostando de aprender essa linguagem?</legend>
+      <label><input type="checkbox" id='s' onclick="darConselho('sim')"/>Sim</label>
+      <label><input type="checkbox" id='n' onclick="darConselho('não')"/>Não</label>
+    </fieldset>
+  </form>
+  
+  <span id="conselho"></span>
+
+  <script src="script.js"></script>
+</body>
+</html>

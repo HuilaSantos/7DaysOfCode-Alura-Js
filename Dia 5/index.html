@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Faça sua lista de compras aqui</h1>
+    <div id="container">
+        <form id="adcionarLista" onsubmit="event.preventDefault(); adicionarItem()">
+            <label>Item: <input type="text" id="item"></label><br>
+            <fieldset><legend>Categoria:</legend>
+                <label><input type="radio" name="categoria" value="frutas">Frutas</label>
+                <label><input type="radio" name="categoria" value="vegetais">Vegetais</label>
+                <label><input type="radio" name="categoria" value="frios">Frios</label>
+                <label><input type="radio" name="categoria" value="doces">Doces</label>
+            </fieldset>
+            <input type="submit" value="Adicionar a lista">
+        </form>
+
+    </div>
+
+    <script src="listaDeCompras.js"></script>
+</body>
+</html>

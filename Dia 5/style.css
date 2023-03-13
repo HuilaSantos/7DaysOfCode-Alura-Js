@@ -1,0 +1,7 @@
+#list {
+    font-weight: bold;
+}
+
+#listaFrutas, #listaVegetais, #listaFrios, #listaDoces {
+    font-weight: normal;
+}
