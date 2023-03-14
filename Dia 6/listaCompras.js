@@ -68,10 +68,3 @@ function validarItem(lista) {
 function mostrarLista() {
     alert(`Lista de compras:\n  Frutas: ${frutas}\n  Laticínios: ${laticinios}\n  Doces: ${doces}\n  Congelados: ${congelados}`);
 }
-
-
-// categoria
-// mostrar lista
-// entrar valor
-// validar valor
-// remover valor
