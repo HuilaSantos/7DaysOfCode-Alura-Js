@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Caculadora básica</h1>
+    <form onsubmit="event.preventDefault(); calcular()">
+        <label>Primeiro valor: <input type="text" id="valorUm" /></label>
+        <label>Segundo valor: <input type="text" id="valorDois" /></label>
+        <fieldset>
+            <legend>Que tipo de operação você prefere?</legend>
+            <label>&plus; <input type="radio" name="tipoOperacao" value="soma"></label>&nbsp;&nbsp;
+            <label>&minus; <input type="radio" name="tipoOperacao" value="subtracao"></label>&nbsp;&nbsp;
+            <label>&times; <input type="radio" name="tipoOperacao" value="multiplicacao"></label>&nbsp;&nbsp;
+            <label>&divide; <input type="radio" name="tipoOperacao" value="divisao"></label>&nbsp;&nbsp;
+            <label>Sair <input type="radio"name="tipoOperacao" value="sair"></label>
+        </fieldset>
+        <input type="submit" value="Calcular">
+    </form><br>
+
+  <script src="calculadora.js"></script>
+</html>
